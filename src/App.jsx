@@ -15,6 +15,12 @@ function App() {
     setTodo([...todo, input]);
     setInput("");
   };
+
+  const remove = (index) => {
+    const newTodo = [...todo];
+    newTodo.splice(index, 1);
+    setTodo(newTodo);
+  };
   return (
     <>
       <div className="container">
@@ -31,9 +37,12 @@ function App() {
           </form>
 
           <ul>
-            {todo.map((td) => (
+            {todo.map((td, index) => (
               <li key={td} className="input">
                 {td}
+                <button className="btn" onClick={() => remove(index)}>
+                  delete
+                </button>
               </li>
             ))}
           </ul>

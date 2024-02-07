@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -29,12 +30,18 @@ form > button {
 ul {
   margin-top: 15px;
 }
-ul li {
-  font-size: 18;
+
+li {
+  margin: 10px 0;
 }
 .input {
   font-size: 18px;
   height: 30px;
   padding-left: 5px;
   margin-left: 18px;
+}
+.btn {
+  margin-left: 30px;
+  height: 30px;
+  font-size: 16px;
 }
