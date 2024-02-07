@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 300px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form input {
+  font-size: 16px;
+  height: 30px;
+}
+
+form > button {
+  margin-left: 30px;
+  height: 30px;
+  font-size: 16px;
+}
