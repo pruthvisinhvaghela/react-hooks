@@ -16,10 +16,25 @@
 form input {
   font-size: 16px;
   height: 30px;
+  padding-left: 5px;
 }
 
 form > button {
-  margin-left: 30px;
+  margin-left: 5px;
   height: 30px;
   font-size: 16px;
+  padding: 0 10px;
+}
+
+ul {
+  margin-top: 15px;
+}
+ul li {
+  font-size: 18;
+}
+.input {
+  font-size: 18px;
+  height: 30px;
+  padding-left: 5px;
+  margin-left: 18px;
 }
