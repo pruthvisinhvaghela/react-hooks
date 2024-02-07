@@ -7,9 +7,14 @@ function App() {
   const [input, setInput] = useState(""); //hold the value of the input field
   return (
     <>
-      <div>
+      <div className="container">
         <h1>Todo List</h1>
-        <input type="text" placeholder=" enter your task" />
+        <div className="main-box">
+          <form action="">
+            <input type="text" placeholder=" enter your task" />
+            <button>Add todo</button>
+          </form>
+        </div>
       </div>
     </>
   );
