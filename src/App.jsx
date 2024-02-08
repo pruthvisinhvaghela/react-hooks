@@ -1,7 +1,6 @@
 import { useRef } from "react";
 
 const App = () => {
-  // Initializing a ref
   const inputRef = useRef(null);
 
   // Function to focus on the input element
